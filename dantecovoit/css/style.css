@@ -1,0 +1,595 @@
+/*rose -> #F1096F
+jaune  -> #F1CA09*/
+body{
+	margin:0px;
+	padding:0px;
+	/*font*/
+	font-family: 'Raleway', sans-serif;
+	/*Image background*/
+	background-image: url(../img/backk.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+
+
+/*--------------------NAVBAR---------------------*/
+
+
+
+.nav_bar img.fld{
+	width: 80px;
+	margin: 10px 0px 5px 10px;
+}
+
+/*bandeau------------------------------------*/
+ul.nav_bar {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-image:linear-gradient(black, #565D63);
+}
+
+/*boutons-----------------------------------*/
+.nav_bar li{
+	float:left;
+}
+.nav_bar li.bouton{
+	float:right;
+}
+.nav_bar li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+/*boutons connexion -----------------------------*/
+
+.nav_bar li a.profil, .profil2{
+	padding: 33px 25px;
+	background-color: #F1CA09;/*jaune*/
+	transition: all 0.5s;
+
+}
+.nav_bar .profil2{
+	background-color: #F1096F;/*rose*/
+}
+
+.nav_bar li a:hover{
+	text-decoration:none;
+	color: white;
+}
+
+/* Bouton profil */
+
+.nav_bar li a.user, .user2{
+	padding: 33px 25px;
+	background-color: #F1CA09;/*jaune*/
+	transition: all 0.5s;
+
+}
+.nav_bar .user2{
+	background-color: transparent;
+}
+
+.nav_bar li a:hover{
+	text-decoration:none;
+	color: white;
+	
+}
+
+/*icon de connexion---------------------------------*/
+.nav_bar li.bouton img{
+	width: 20px;
+	transition: 0.5s ease;
+}
+.nav_bar li a.profil:hover .icon ,  .profil2:hover .icon, .user:hover .icon{
+	margin-top: -15px;
+
+}
+/*--------------------FIN NAVBAR---------------------*/
+
+
+
+
+
+
+/*-------------Trouver une course--------------*/
+
+
+/*background-----------------------------------*/
+.image_slide {
+  background-image:url(../img/slide1.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*position text---------------------------*/
+div.trouver_course{
+  width: 100%;
+  top: 60%;
+  position: absolute;
+  text-align: center;
+}
+.trouver_course h1, .trouver_course h3{
+  color: white;
+}
+
+/*Bouton----------------------------------------*/
+.trouver_course li{
+  list-style-type: none;
+}
+
+.trouver_course li.course_bouton{
+  float: left;
+  border-radius: 15px;
+}
+
+.trouver_course input{
+  padding: 20px 50px;
+}
+
+.trouver_course input.valider{
+  padding: 10px 80px;
+  border: none;
+  border-radius: 15px;
+}
+
+/*-------------FIN Trouver une course--------------*/
+
+
+
+
+
+
+
+/*-------------Page deux bouton proposer trajet------------*/
+
+
+/*div-----------------------------*/
+.proposer_trajet2 div{
+	float: left;
+	padding: 30px 30px;
+}
+
+/*image---------------------------*/
+.proposer_trajet2 img{
+	width: 600px;
+	border-radius: 5px;
+}
+
+/*Text----------------------------*/
+.proposer_trajet2 li{
+	list-style-type: none;
+	font-weight: bold;
+	color: #A4A4A4;
+}
+.proposer_trajet2 h3{
+	color: #484849;
+	font-weight: bold;
+}
+.proposer_trajet2 div.text{
+	width: 410px;
+	padding-top: 150px;
+}
+
+/*Button--------------------------*/
+.proposer_trajet2 a{
+	padding: 10px 80px;
+	border: none;
+	border-radius: 15px;
+}
+
+/*------------- FIN Page deux bouton proposer trajet------------*/
+
+
+
+
+
+
+/*--------------Bandeau Bouton---------------*/
+
+/*bandeau--------------*/
+div.pub{
+	height: 200px;
+	text-align: center;
+	background-color: rgba(182, 186, 188, 0.5);
+	margin-top: 450px;
+}
+
+/*bouton--------------------*/
+.pub li{
+	list-style-type: none;
+}
+.pub li.bouton{
+	float:left;
+	margin-top: 30px;
+}
+.pub a{
+	padding: 10px 80px;
+	border: none;
+	background-color: #E11864;
+}
+.pub a:hover{
+	background-color: #F1CA09;
+}
+
+/*text--------------*/
+.pub h3{
+	text-align: left;
+	margin-left: 18%;
+	padding-top: 35px;
+	color: #484849;
+	font-weight: bold;
+}
+
+/*--------------Fin Bandeau Bouton---------------*/
+
+
+
+
+
+
+
+/*--------------Promotion---------------*/
+
+.promo div{
+	text-align: center;
+	font-weight: bold;
+}
+
+.promo h2{
+	text-align: left;
+	margin: 100px 0px 40px 15px;
+}
+
+.promo h2, .promo h5{
+	color: #484849;
+	font-weight: bold;
+}
+
+.promo h5{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #16B4F8; 
+}
+.promo li{
+	list-style-type: none;
+	color: #A4A4A4; 
+}
+
+/*cases--------------------------------*/
+.promo ul{
+	width: 31%;
+	height: 250px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #F1CA09, 0 0 5px #F1CA09;
+}
+
+.promo ul.p1{
+	margin: 0px 30px 0px 0px
+}
+
+/*--------------Fin Promotion---------------*/
+
+
+
+
+
+/*--------------Deuxieme promo-----------*/
+
+/*Background img--------------------------*/
+.down_page div.back_lines{
+	height: 550px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	margin-top: 
+
+}
+
+/*Text------------------------------------*/
+div.promo2{
+	text-align: center;
+	font-weight: bold;
+}
+.promo2 li{
+	list-style-type: none;
+}
+.promo2 h2{
+	text-align: left;
+	padding-top: 50px;
+	margin: 450px 0px 40px 15px;
+	color: #F1096F;
+}
+
+.promo2 h2, .promo2 h5{
+	font-weight: bold;
+}
+
+.promo2 h5{
+	margin-bottom: 30px;
+	color: #1FD23C;
+}
+/*Vignette--------------------------------*/
+.promo2 img{
+	width: 100px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+
+/*cases--------------------------------*/
+.promo2 ul{
+	width: 31%;
+	height: 350px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.promo2 ul.p1{
+	margin: 0px 30px 0px 0px
+}
+
+
+/*--------------Fin Deuxieme promo-----------*/
+
+
+
+
+
+
+/*--------------------Bas page--------------------*/
+
+
+/*design div -------------------*/
+div.bas_page{
+	height: 450px;
+	background-color: #1D222F;
+}
+.bas_page ul{
+	float: left;
+}
+
+/*position FLD-----------------------*/
+.bas_page img{
+	width: 200px;
+	margin: 50px 50px 20px 0px;
+}
+
+/*text-------------------------------*/
+.bas_page li{
+	list-style-type: none;
+	color: white;
+}
+.bas_page li.num{
+	color: #F1096F;
+}
+
+/*Case-------------------------------------*/
+.bas_page .label{
+	background-color: rgb(61, 60, 63);
+	width: 300px;
+}
+.bas_page .label h4{
+	margin: 50px 0px 40px 0px;
+}
+.bas_page .label img{
+	width: 125px;
+	margin: 10px 0px;
+}
+
+/*Bouton-------------------------------*/
+.bas_page ul.contact{
+	margin: 50px 0px 0px 10%;
+}
+.bas_page a{
+	border: none;
+	border-radius: 0px;
+	padding: 15px 60px;
+	background-color: rgb(61, 60, 63);
+}
+.bas_page a:hover{
+	background-color: #F1096F;
+}
+
+/*Image gauche-------------------------------*/
+.bas_page ul.img_points{
+	float: right;
+}
+.bas_page ul.img_points img{
+	margin-top: 0px;
+}
+
+/*--------------------Fin Bas page--------------------*/
+
+
+
+
+
+
+
+/*------------------pied de page------------------*/
+div.pied{
+	text-align: center;
+	background-color: black;
+	height: 80px;
+	color: white;
+	padding-top: 30px;
+}
+
+.pied li{
+	list-style-type: none;
+	display: inline;
+
+}
+.pied a{
+	color: white;
+	transition: 0.3s;
+}
+
+.pied a:hover{
+	color:  #FF8000;
+	text-decoration: none;
+}
+
+/*------------------fin pied de page------------------*/
+
+form.inscription{
+	padding-top: 100px;
+	width: 400px;
+}
+form.inscription2{
+	padding-top: 100px;
+	width: 600px;
+	padding-bottom: 25px;
+}
+
+div.driver1{
+	background-color: #17202A;  
+}
+div.driver1 form{
+	color: white ;
+	padding-top: 25px;
+	width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Block profil------------------------*/
+div.profilbtn{
+	margin-top: 12%;
+	text-align: center;
+	font-weight: bold;
+}
+.profilbtn li{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+/*Vignette--------------------------------*/
+.profilbtn img{
+	width: 100px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+
+/*cases--------------------------------*/
+.profilbtn ul{
+	width: 31%;
+	height: 350px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.profilbtn ul.p1{
+	margin: 0px 30px 0px 0px
+}
+/*Fin block profil--------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*Block info------------------------*/
+div.info{
+	margin-top: 12%;
+	text-align: center;
+	font-weight: bold;
+}
+.info li{
+	list-style-type: none;
+}
+
+/*Vignette--------------------------------*/
+.info img{
+	width: 100px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+
+/*cases--------------------------------*/
+.info ul{
+	width: 31%;
+	height: 350px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.info ul.p1{
+	margin: 0px 30px 0px 0px
+}
+/*Fin block info--------------------------*/
+
+
+
+
+
+
+
+
+
+/*Block deconnexion------------------------*/
+div.deconnexion{
+	margin-top: 12%;
+	text-align: center;
+	font-weight: bold;
+}
+.deconnexion li{
+	list-style-type: none;
+}
+
+/*Vignette--------------------------------*/
+.deconnexion img{
+	width: 100px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+
+/*cases--------------------------------*/
+.deconnexion ul{
+	width: 31%;
+	height: 350px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.deconnexion ul.p1{
+	margin: 0px 30px 0px 0px
+}
+/*Fin block deconnexion--------------------------*/
